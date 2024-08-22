@@ -1,6 +1,6 @@
 let productsData;
 
-fetch("../ecommerce.json")
+fetch("./ecommerce.json")
   .then((response) => response.json())
   .then((data) => {
     productsData = data.products[0];
